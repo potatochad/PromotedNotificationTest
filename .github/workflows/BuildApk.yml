@@ -32,7 +32,7 @@ jobs:
 
       - name: Build APK
         run: |
-          source ./Ignore_Imports.sh
+          source ./app/src/main/java/com/ross/livemedia/utils/Ignore_Imports.sh   
           give_gradle_permission
 
           Build_APK
